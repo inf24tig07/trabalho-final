@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora os métodos de estudo mais eficazes para melhorar o teu desempenho académico. Técnicas práticas e recursos úteis."/>
+    <meta name="keywords" content="estudo, métodos de estudo, pomodoro, flashcards, mapas mentais, educação, técnicas de estudo"/>
+    <meta name="author" content="inf24tigXX" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Métodos de Estudo</title>
+</head>
+<body>
+    <header>
+        <img src="logotipo.png" alt="Logótipo do site">
+        <div>
+          <h1>Métodos de Estudo Eficazes</h1>
+          <p class="subtitulo">Descobre como estudar melhor, em menos tempo</p>
+        </div>
+      </header>
+    
+    <br>
+      <nav class="sidebar">
+        <a href="index.html" target="_blank"> Página principal</a><br>
+        <a href="metodos.html" target="_blank"> Metodos de Estudo</a><br>
+        <a href="recursos.html" target="_blank">Recursos de Estudo</a><br>
+        <a href="contacto.html" target="_blank">Contactos</a><br>
+      </nav>
+
+    <section class="recursos-externos">
+      <h2>🌐 Recursos e Aplicações Úteis</h2>
+        <ul class="lista-links">
+            <li>📄<a href="https://www.escolavirtual.pt/" target="_blank">Escola Virtual – Apoio escolar com fichas e resumos</a></li>
+            <li>🎓<a href="https://www.khanacademy.org/" target="_blank">📘 Khan Academy – Explicações em vídeo para várias disciplinas</a></li> 
+            <li>🧠<a href="https://quizlet.com/" target="_blank">🧠 Quizlet – Criação de flashcards e jogos para estudar</a></li>
+            <li>⏱️<a href="https://www.focuskeeper.app/" target="_blank">⏱️ Focus Keeper – App Pomodoro para melhorar a concentração</a></li>
+            <li>💡<a href="https://www.educalab.pt/" target="_blank">EducaLab – Recursos digitais para alunos e professores</a></li>
+        </ul>    
+    </section>
+    <section class="video-dicas">
+        <h2>🎥 Dicas de Estudo</h2>
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/6kodkD1le3c"
+          title="5 Dicas Para Estudar Mais RÁPIDO e Lembrar de Tudo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </section>
+
+      <section class="tecnicas-definicoes">
+        <h2>🧩 Técnicas de Estudo</h2>
+        <dl>
+          <dt class="lista-definicoes">
+            <b>Leitura Ativa</b>
+          </dt>
+          <dd>
+            Envolve questionar, resumir e refletir sobre o que lês, em vez de apenas sublinhar ou copiar.
+            <a href="https://portal.fabad.edu.br/blog/leitura-ativa/" target="_blank"> Saber mais </a>
+          </dd>
+          <dt>
+            <b>Revisão Espaçada</b>
+          </dt>
+          <dd>
+            Técnica que consiste em rever a matéria várias vezes ao longo do tempo, em vez de estudar tudo de uma vez.
+            <a href="https://exame.com/carreira/guia-de-carreira/como-usar-a-tecnica-de-revisao-espacada-para-reter-melhor-o-conteudo-estudado/" target="_blank"> Como aplicar</a>
+          </dd>
+          <dt>
+            <b>Elaboração</b>
+          </dt>
+          <dd>
+            A elaboração técnica de estudo refere-se ao desenvolvimento e aplicação de métodos e técnicas eficazes para otimizar o processo de aprendizado, com o objetivo de melhorar a compreensão, retenção e aplicação de conhecimentos.
+            <a href="https://www.youtube.com/watch?v=9WuC7zGq2UI" target="_blank"> Video explicativo</a>
+          </dd>
+          <dt>
+            <b>Resumos visuais</b>
+          </dt>
+          <dd>
+            Resumos visuais, como mapas mentais ou ilustrações, são uma técnica de estudo que utiliza elementos visuais para representar as ideias principais de um texto ou assunto, facilitando a compreensão e memorização
+            <a href="https://www.lermaislivros.com/post/passo-a-passo-resumo-visual#google_vignette" target="_blank">Como fazer</a>
+          </dd>
+        </dl>
+
+      </section>
+    
+  <section class="metodos-xml">
+    <h2>📋 Métodos carregados do ficheiro XML</h2>
+    <ul id="lista-metodos"></ul>
+</section>
+</body>
+<script src="trabalho.js"></script>
+<script>
+    
+    carregarMetodosXML();   <!-- ESTA LINHA -->
+</script>
+</html>
