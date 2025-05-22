@@ -2,7 +2,7 @@
 
 **Grupo:** inf24tig07  
 **Repositório:** [https://github.com/inf24tig07/trabalho-final](https://github.com/inf24tig07/trabalho-final)  
-**Website:** [https://inf24tig07.netlify.app](https://inf24tig07.netlify.app)
+
 
 ---
 
