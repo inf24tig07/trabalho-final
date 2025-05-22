@@ -1,2 +1,2 @@
 # trabalho-final
-Trabalho de tecnologias da Internet - Tema: Ensino
+Trabalho de tecnologias da Internet - Tema: Métodos de Estudo eficazes
