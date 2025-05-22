@@ -78,3 +78,7 @@ function carregarMetodosXML() {
             }
         })
         .catch(error => console.error("Erro ao carregar XML:", error));
+}
+
+
+
