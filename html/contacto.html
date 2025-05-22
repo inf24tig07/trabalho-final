@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora os métodos de estudo mais eficazes para melhorar o teu desempenho académico. Técnicas práticas e recursos úteis."/>
+    <meta name="keywords" content="estudo, métodos de estudo, pomodoro, flashcards, mapas mentais, educação, técnicas de estudo"/>
+    <meta name="author" content="inf24tigXX" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    
+    
+    <title>Métodos de Estudo Eficazes</title>
+</head>
+<body>
+  <header>
+        <img src="logotipo.png" alt="Logótipo do site">
+        <div>
+          <h1>Métodos de Estudo Eficazes</h1>
+          <p class="subtitulo">Descobre como estudar melhor, em menos tempo</p>
+        </div>
+      </header>
+    
+    <br>
+    <nav class="sidebar">
+        <a href="index.html" target="_blank"> Página principal</a><br>
+        <a href="metodos.html" target="_blank"> Metodos de Estudo</a><br>
+        <a href="recursos.html" target="_blank">Recursos de Estudo</a><br>
+        <a href="contacto.html" target="_blank">Contactos</a><br>
+    </nav>
+    <form>
+        <label for="fname">Nome</label>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="femail">Email</label>
+        <input type="email" id="femail" name="femail"><br>
+
+        <section class="metodos">
+            <h2>Escolhe os teus métodos preferidos:</h2>
+
+            <input type="checkbox" id="metodo1" name="metodo" value="pomodoro">
+            <label for="metodo1">Método Pomodoro</label><br>
+
+            <input type="checkbox" id="metodo2" name="metodo" value="mapamental">
+            <label for="metodo2">Mapa Mental</label><br>
+
+            <input type="checkbox" id="metodo3" name="metodo" value="flashcards">
+            <label for="metodo3">Flashcards</label><br>
+
+            <input type="checkbox" id="metodo4" name="metodo" value="autoexplicacao">
+            <label for="metodo4">Autoexplicação</label><br>
+        </section>
+
+        <section class="mensagem">
+            <h2>Deixa a tua mensagem (máx. 200 palavras)</h2>
+            <textarea id="mensagem" rows="8" cols="60" placeholder="Escreve aqui a tua mensagem..."></textarea>
+            <p id="contador">0 / 200 palavras</p>
+        </section>
+
+        <button type="button" onclick="verificarFormulario()">Enviar</button>
+
+        <a href="MetodosEstudo.xml" download>
+          <button type="button">Descarregar ficheiro xml</button>
+        </a>
+    </form>
+
+    <footer>
+        <p>&copy; 2025 Métodos de Estudo Eficazes | Desenvolvido pelo grupo inf24tigXX</p>
+        <p>Este site foi criado no âmbito do módulo INF-TI como parte de um trabalho prático.</p>
+    </footer>
+</body>
+<script src="trabalho.js"></script>
+        <script>
+            contarpalavras();
+            
+        </script>
+</html>
