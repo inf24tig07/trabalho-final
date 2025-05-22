@@ -46,39 +46,7 @@ function contarpalavras() {
 
 
 
-function carregarMetodosXML() {
-    fetch('MetodosEstudo.xml')
-        .then(response => response.text())
-        .then(xmlText => {
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(xmlText, "text/xml");
-            const metodos = xmlDoc.getElementsByTagName("Metodo");
-            const lista = document.getElementById("lista-metodos");
 
-            if (lista) {
-                for (let metodo of metodos) {
-                    const nome = metodo.getAttribute("nome");
-                    const descricao = metodo.getElementsByTagName("Descricao")[0]?.textContent || "";
-                    const vantagens = metodo.getElementsByTagName("Vantagens")[0]?.textContent || "";
-                    const desvantagens = metodo.getElementsByTagName("Desvantagens")[0]?.textContent || "";
-                    const idealPara = metodo.getElementsByTagName("IdealPara")[0]?.textContent || "";
-
-                    const item = document.createElement("li");
-                    item.classList.add("metodo-card");
-                    item.innerHTML = `
-                        <h3> ${nome}</h3>
-                        <p><strong>Descrição:</strong> ${descricao}</p>
-                        <p><strong>Vantagens:</strong> ${vantagens}</p>
-                        <p><strong>Desvantagens:</strong> ${desvantagens}</p>
-                        <p><strong>Ideal Para:</strong> ${idealPara}</p>
-                    `;
-
-                    lista.appendChild(item);
-                }
-            }
-        })
-        .catch(error => console.error("Erro ao carregar XML:", error));
-}
 
 
 
