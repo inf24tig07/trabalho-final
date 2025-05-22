@@ -410,3 +410,47 @@ form button:hover,
 .sidebar {
     transition: width 0.4s ease, background-color 0.3s ease;
 }
+
+
+.metodo-card {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.metodo-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.metodo-icone {
+    font-size: 30px;
+    color: #3498db;
+    flex-shrink: 0;
+}
+
+.metodo-info h3 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 22px;
+}
+
+.metodo-info p {
+    margin: 4px 0;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+#lista-metodos {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    list-style: none;
+}
