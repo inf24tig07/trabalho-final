@@ -5,26 +5,41 @@ body {
 }
 
 header {
+  background-color: #fff;
+  border-bottom: 4px solid #f5c518;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.conteudo-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 30px;
-  background-color: #fff;
-  border-bottom: 3px solid #f5c518;
-  height: 70px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
 }
 
-header img {
-  width: 50px;
+.conteudo-header img {
+  width: 60px;
   height: auto;
+  margin-right: 20px;
 }
 
-.subtitulo {
+.texto-header {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.texto-header h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.texto-header .subtitulo {
   font-style: italic;
   font-size: 15px;
   color: #777;
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 .sidebar {
