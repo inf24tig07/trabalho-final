@@ -469,3 +469,45 @@ form button:hover,
     padding: 10px;
     list-style: none;
 }
+
+
+.conteudo-curiosidades {
+  margin-left: 220px;
+  padding: 40px 60px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  animation: fadeIn 0.8s ease-in;
+}
+
+.conteudo-curiosidades h2 {
+  font-size: 26px;
+  color: #2c3e50;
+  border-left: 5px solid #f5c518;
+  padding-left: 12px;
+  margin-bottom: 25px;
+}
+
+.lista-curiosidades {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+
+.lista-curiosidades > li {
+  margin-bottom: 25px;
+  background-color: #fffef0;
+  padding: 15px;
+  border-left: 4px solid #f5c518;
+  border-radius: 8px;
+}
+
+.lista-curiosidades ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.lista-curiosidades li em {
+  color: #2c3e50;
+  font-style: italic;
+}
