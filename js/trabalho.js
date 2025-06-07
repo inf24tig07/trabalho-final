@@ -44,7 +44,7 @@ function contarpalavras() {
     });
 }
 function carregarMetodosXML() {
-    fetch('xml/MetodosEstudo.xml')
+    fetch('../xml/MetodosEstudo.xml')
         .then(response => response.text())
         .then(xmlText => {
             const parser = new DOMParser();
