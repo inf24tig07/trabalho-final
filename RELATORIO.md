@@ -8,19 +8,45 @@
 
 ## 1. Project Presentation – Apresentação do Projeto
 
-### Proposta de Trabalho
+## Tema: Ensino
+## Proposta de Trabalho
 
-Desenvolver um website informativo e interativo sobre métodos de estudo eficazes, acessível a qualquer utilizador. O principal objetivo é ajudar estudantes a melhorar os seus hábitos de aprendizagem através de conteúdos claros, visuais e validados.
+O presente projeto tem como objetivo o desenvolvimento de um website informativo, composto por **pelo menos quatro páginas estáticas, subordinado ao tema "Ensino"**, recorrendo às tecnologias **HTML5, CSS3 e JavaScript**.
 
-### Descrição Detalhada
+Pretende-se apresentar conteúdos relevantes sobre métodos de ensino, recursos educativos, curiosidades e contactos, de forma clara, acessível e esteticamente apelativa. Para além dos requisitos mínimos definidos no enunciado, procurou-se aplicar boas práticas de semântica, acessibilidade, validação de código e experiência de utilizador.
 
-O projeto é composto por várias páginas HTML com conteúdos divididos por temas:
-- Técnicas de estudo (flashcards, pomodoro, autoexplicação)
-- Recursos educativos adicionais
-- Página de contacto
-- Curiosidades sobre o ensino
+## Descrição Geral do Projeto
 
-Foi utilizado HTML5, CSS3 e JavaScript para construção das páginas. O layout foi desenhado com base em wireframes simples, tendo sido mantida uma estrutura consistente e intuitiva ao longo do site.
+O projeto resulta na construção de um website informativo destinado a alunos, professores ou qualquer utilizador interessado em aprender mais sobre educação. As páginas criadas estão interligadas entre si através de um menu de navegação acessível e responsivo.
+
+ ## As páginas principais são:
+
+ **Página Inicial (index.html)** – Introdução ao tema, apresentação do site e acesso aos principais conteúdos.
+
+**Curiosidades sobre o Ensino (Curiosidadesensino.html)** – Conteúdo informativo e curioso sobre o mundo da educação.
+
+**Métodos de Ensino (metodos.html)** – Apresentação de diferentes abordagens pedagógicas com destaque para as mais atuais.
+
+**Recursos Educativos (recursos.html)** – Sugestões de materiais e ferramentas úteis para o ensino.
+
+**Página de Contacto (contacto.html)** – Formulário para contacto e informações da equipa.
+
+O projeto foi desenvolvido com base nos princípios da web estática, sem qualquer uso de tecnologias server-side ou bases de dados, respeitando os limites definidos no enunciado. No entanto, foram incluídas animações, responsividade e scripts em JavaScript para enriquecer a experiência do utilizador.
+
+## Objetivos do Projeto
+Cumprir todos os requisitos técnicos especificados no enunciado;
+
+Desenvolver um produto final funcional, intuitivo e apelativo;
+
+Utilizar corretamente HTML semântico e CSS moderno;
+
+Aplicar JavaScript para melhorar a interatividade;
+
+Validar o código utilizando os validadores da W3C;
+
+Publicar o projeto online através do serviço **Netlify**;
+
+Elaborar um relatório técnico detalhado sobre o processo de desenvolvimento.
 
 ---
 
