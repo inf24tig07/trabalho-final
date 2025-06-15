@@ -52,41 +52,49 @@ Elaborar um relatório técnico detalhado sobre o processo de desenvolvimento.
 
 ## 2. User Interface – Interface com o Utilizador
 
-### Sitemap
-### Wireframes (Sketch)
+A interface do website “**Métodos de Estudo Eficazes**” foi planeada com foco na clareza, simplicidade e acessibilidade, assegurando uma navegação fluída e agradável para qualquer utilizador. Para tal, foram desenvolvidos **wireframes** representativos de cada página, bem como um **sitemap** que ilustra a estrutura hierárquica do site.
 
-👉 Inserir os wireframes aqui:
-- `![Wireframe Página Inicial](imagens/wireframe-index.png)`
-- `![Wireframe Métodos](imagens/wireframe-metodos.png)`
-- `![Wireframe Contacto](imagens/wireframe-contacto.png)`
+### :pushpin: Estudo da Interface: Wireframes
 
-### Comparação com Resultado Final
+Foram elaborados wireframes para as seguintes páginas principais:
 
-O design final seguiu o planeamento inicial dos wireframes, mantendo:
-- Cabeçalho fixo com logótipo e menu
-- Imagens ilustrativas para cada técnica
-- Layout com três colunas nos métodos
-- Formulário funcional na secção de contacto
+- **Página Inicial**  
+  Contém uma introdução ao tema, uma lista de métodos de estudo mais usados (com fundo creme) e uma secção com passos para estudar de forma eficaz (com fundo azul claro).
+  
+
+- **Métodos de Estudo**  
+  Apresenta uma tabela comparativa com colunas: `Método`, `Descrição`, `Vantagens`, `Desvantagens` e `Ideal para`. Inclui também uma dica em destaque.
+
+- **Recursos de Estudo**  
+  Divide-se em três secções:  
+  - Recursos e aplicações úteis (lista simples)  
+  - Dicas de estudo (vídeo)  
+  - Técnicas e definições (texto explicativo)  
+  Além disso, mostra os métodos carregados dinamicamente a partir de um ficheiro XML.
+
+- **Curiosidades sobre o Ensino (Ensino)**  
+  Mostra curiosidades de diferentes países (Finlândia, Japão, Marrocos e Mundial) com botões visuais e mensagens motivacionais.
+
+- **Página de Contacto**  
+  Formulário com campos de nome, email, seleção de métodos preferidos, textarea para mensagem com limite de 200 palavras, e dois botões: `Enviar` e `Descarregar fórmulas úteis`.
+
+- **Menu de Navegação (comum a todas as páginas)**  
+  Inclui:  
+  - Página Principal  
+  - Métodos de Estudo  
+  - Recursos de Estudo  
+  - Contactos  
+  - Ensino
+
+Cada página foi verificada e corresponde fielmente ao respetivo wireframe.
 
 ---
 
-## 3. Product – Produto
+### 🗺️ Estrutura do Site: Sitemap
 
-### Descrição do Produto
+A hierarquia do site foi representada através do seguinte **sitemap**:
 
-O site apresenta diversas técnicas de estudo com explicações visuais, imagens ilustrativas e uma navegação simples. O conteúdo foi escrito de forma direta e objetiva, com base em fontes confiáveis.
 
-### Link para o Site
-
-🔗 [https://inf24tig07.netlify.app](https://inf24tig07.netlify.app)
-
-### Instruções de Instalação
-
-#### Instalação Local
-
-1. Clonar o repositório:
-   ```bash
-   git clone https://github.com/inf24tig07/trabalho-final.git
 
 
 
