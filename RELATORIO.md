@@ -135,6 +135,141 @@ A navegação é intuitiva e coerente em todas as páginas, e os estilos aplicad
 Além disso, o sitemap manteve-se inalterado, confirmando que o produto final respeitou a hierarquia e o planeamento inicial do projeto.
 
 
+---
+
+
+## 3. Product – Produto
+
+O website “**Métodos de Estudo Eficazes**” foi desenvolvido com recurso a HTML5, CSS3 e JavaScript. Este produto final tem como objetivo proporcionar aos utilizadores uma navegação simples e agradável, ao mesmo tempo que oferece conteúdo educativo útil e interativo. Está publicado online e cumpre todos os requisitos técnicos definidos no enunciado da unidade curricular.
+
+---
+
+### 🌐 Ligação para o site do grupo em Netlify
+
+🔗 [https://metodosdeestudoeficazes.netlify.app](https://metodosdeestudoeficazes.netlify.app)
+
+---
+
+### 🛠️ Instruções de Instalação e Configuração
+
+#### ✔️ Instalação Local
+
+1. Acede ao repositório do projeto no GitHub:  
+   [https://github.com/inf24tig07/trabalho-final](https://github.com/inf24tig07/trabalho-final)
+
+2. Clica em **"Code" > "Download ZIP"** ou utiliza o seguinte comando Git:
+
+   ```bash
+   git clone https://github.com/inf24tig07/trabalho-final.git
+
+
+3. Extrai os ficheiros do .zip (caso aplicável).
+
+4. Abre o ficheiro index.html com um navegador à tua escolha.
+   
+
+---
+
+
+#### ✔️ Instalação no Netlify (Publicação Automática)
+
+1. Cria uma conta gratuita em [https://www.netlify.com](https://www.netlify.com)
+
+2. Liga a tua conta do Netlify ao GitHub.
+
+3. Escolhe o repositório `inf24tig07/trabalho-final`.
+
+4. Configura a publicação automática com os seguintes parâmetros:
+
+   - **Build command**: *(deixar vazio – o projeto é estático)*
+   - **Publish directory**: `/`
+
+5. Clica em **Deploy**.
+
+6. Após a publicação, copia o link gerado para acesso público ao site.
+
+---
+
+### 🔐 Regras de Utilização
+
+- O site é **público** e **gratuito**.
+- Não exige qualquer tipo de login ou autenticação.
+- Não recolhe nem guarda dados pessoais dos utilizadores.
+
+---
+
+### 🧭 Ajuda à Navegação
+
+- A navegação é feita através de um **menu lateral fixo**, disponível em todas as páginas.
+- Os seguintes itens estão sempre acessíveis:
+  - Página Principal
+  - Métodos de Estudo
+  - Recursos de Estudo
+  - Contactos
+  - Ensino
+
+#### Elementos visuais de apoio incluídos:
+
+- Tooltips nos botões e ícones.
+- Cores diferenciadas por tipo de conteúdo (ex: azul para passos, creme para métodos).
+- Estrutura clara com títulos, listas e tabelas organizadas.
+- Secção ativa destacada no menu.
+
+---
+
+### ✅ Validações de Formulários
+
+O formulário de contacto inclui:
+
+- Campo de texto para **Nome**
+- Campo de **Email** (com validação automática do tipo email)
+- Caixa de seleção de **métodos preferidos**
+- Área de texto limitada a **200 palavras**, com **contador dinâmico**
+- Botões de **"Enviar"** e **"Descarregar fórmulas úteis"**
+
+Validações JavaScript implementadas:
+
+- Verificação de campos obrigatórios preenchidos
+- Validação do formato de email
+- Contador e limite de palavras para a textarea
+
+---
+
+### 🔎 Validação do HTML e CSS
+
+#### Ferramentas utilizadas:
+
+- [HTML Validator – W3C](https://validator.w3.org)
+- [CSS Validator – W3C](https://jigsaw.w3.org/css-validator)
+
+#### Resultados:
+
+- Todos os ficheiros HTML e CSS foram validados com sucesso, **sem erros**.
+- Foram corrigidos pequenos *warnings* relacionados com boas práticas semânticas.
+
+#### Capturas de ecrã da validação HTML:
+
+- ![Validação Contacto](images/contactovalidacao.png)
+- ![Validação Ensino](images/ensinovalidacao.png)
+- ![Validação Index](images/indexvalidacao.png)
+- ![Validação Métodos](images/metodosvalidacao.png)
+- ![Validação Recursos](images/recursosvalidacao.png)
+
+---
+
+### ⚙️ Detalhes de Implementação
+
+O site cumpre todos os requisitos mínimos do enunciado. Cada página foi desenvolvida com:
+
+- Estrutura semântica **HTML**
+- Estilos externos **CSS** organizados e reutilizáveis
+- Scripts em **JavaScript** para interatividade
+- **Design responsivo** e compatível com diferentes ecrãs
+- Conteúdo separado em **secções bem definidas**
+- Foco na **legibilidade e usabilidade**
+- Publicação online realizada com sucesso através da integração **GitHub + Netlify**
+
+
 
 
 
