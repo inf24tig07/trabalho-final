@@ -60,10 +60,15 @@ Foram elaborados wireframes para as seguintes páginas principais:
 
 - **Página Inicial**  
   Contém uma introdução ao tema, uma lista de métodos de estudo mais usados (com fundo creme) e uma secção com passos para estudar de forma eficaz (com fundo azul claro).
+
+
+  ![Wireframe da Página Inicial](images/index.html.png)
   
 
 - **Métodos de Estudo**  
   Apresenta uma tabela comparativa com colunas: `Método`, `Descrição`, `Vantagens`, `Desvantagens` e `Ideal para`. Inclui também uma dica em destaque.
+
+  ![Wireframe de Métodos de Estudo](images/metodosestudo.html.png)
 
 - **Recursos de Estudo**  
   Divide-se em três secções:  
@@ -72,11 +77,22 @@ Foram elaborados wireframes para as seguintes páginas principais:
   - Técnicas e definições (texto explicativo)  
   Além disso, mostra os métodos carregados dinamicamente a partir de um ficheiro XML.
 
-- **Curiosidades sobre o Ensino (Ensino)**  
-  Mostra curiosidades de diferentes países (Finlândia, Japão, Marrocos e Mundial) com botões visuais e mensagens motivacionais.
+![Wireframe de Recursos de Estudo](images/recursosestudo.html.png)
+
+
 
 - **Página de Contacto**  
   Formulário com campos de nome, email, seleção de métodos preferidos, textarea para mensagem com limite de 200 palavras, e dois botões: `Enviar` e `Descarregar fórmulas úteis`.
+
+
+  ![Wireframe da Página de Contacto](images/contactos.html.png)
+
+- **Curiosidades sobre o Ensino (Ensino)**  
+  Mostra curiosidades de diferentes países  com botões visuais e mensagens motivacionais.
+
+  ![Wireframe da Página de Ensino](images/Ensino.png)
+
+
 
 - **Menu de Navegação (comum a todas as páginas)**  
   Inclui:  
@@ -92,7 +108,10 @@ Cada página foi verificada e corresponde fielmente ao respetivo wireframe.
 
 ### 🗺️ Estrutura do Site: Sitemap
 
-A hierarquia do site foi representada através do seguinte **sitemap**:
+A hierarquia do site foi representada no seguinte **sitemap**, onde se demonstra a relação entre as páginas principais e as suas subsecções:
+
+
+![Sitemap do Website](images/sitemap.png)
 
 
 
